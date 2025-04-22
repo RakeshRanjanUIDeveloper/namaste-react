@@ -1,0 +1,89 @@
+.contact-container {
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .contact-header h1 {
+    font-size: 32px;
+    color: rgb(237, 32, 39); /* Main red accent */
+    margin-bottom: 10px;
+  }
+  
+  .contact-header p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .contact-form-section {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 16px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    padding: 12px;
+    background-color: rgb(237, 32, 39);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: rgb(237, 32, 39);
+  }
+  
+  .contact-info {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .contact-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(237, 32, 39);
+    border-left: 4px solid rgb(237, 32, 39);
+    padding-left: 10px;
+  }
+  
+  .contact-info p {
+    margin: 8px 0;
+    color: #555;
+    font-size: 15px;
+  }
+  
